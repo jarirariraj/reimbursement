@@ -1,0 +1,96 @@
+/* Modernized ManagerDashboard.css */
+
+.manager-dashboard {
+    width: 100%;
+    max-width: 900px; /* Wider dashboard */
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff; /* Clean, consistent background */
+    border-radius: 12px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1); /* Subtle depth */
+    text-align: center;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.manager-dashboard:hover {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15); /* Hover effect for added interactivity */
+    transform: translateY(-5px); /* Slight upward movement for engagement */
+}
+
+.manager-dashboard h1, .manager-dashboard h2 {
+    color: #333;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase; /* Professional feel */
+    letter-spacing: 1px;
+}
+
+.manager-dashboard ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.manager-dashboard li {
+    background-color: #F4F7F5; /* Soft grey background */
+    border-radius: 12px;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.manager-dashboard li:hover {
+    background-color: #e1f7d5; /* Soft green hover effect */
+    transform: translateX(5px); /* Slight movement for interactivity */
+}
+
+.manager-dashboard button {
+    padding: 12px 24px;
+    background-color: #32a852; /* Green button for primary actions */
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 15px;
+    width: 25%;
+}
+
+.manager-dashboard button.red {
+    background-color: #8a2525; /* Red button for delete actions */
+}
+
+.manager-dashboard button:hover {
+    background-color: #278440; /* Darker green on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px); /* Slight lift effect */
+}
+
+.manager-dashboard button.red:hover {
+    background-color: #73291b; /* Darker red for delete button */
+}
+
+.manager-dashboard button:active {
+    background-color: #1f6e33; /* Darker green on click */
+}
+
+.manager-dashboard button:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(50, 168, 82, 0.2); /* Focus effect for better accessibility */
+}
+
+.manager-dashboard li span {
+    width: 60%; /* Increased width for better content display */
+    font-size: 1rem;
+    color: #333;
+    font-weight: 400;
+}
+

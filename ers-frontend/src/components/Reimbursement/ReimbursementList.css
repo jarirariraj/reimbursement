@@ -1,0 +1,73 @@
+/* Modernized ReimbursementList.css */
+
+.reimbursement-list {
+    max-width: 500px; /* Slightly wider list for better readability */
+    margin: 5% auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px; /* Softer rounded corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Deeper shadow for more emphasis */
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+}
+
+.reimbursement-list:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Hover effect for depth */
+    transform: translateY(-5px); /* Subtle upward movement */
+}
+
+.reimbursement-list h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+    font-size: 1.8rem; /* Larger font for title */
+    font-weight: 600; /* Bold title for emphasis */
+}
+
+.reimbursement-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.reimbursement-list li {
+    padding: 15px 20px; /* Increased padding for better readability */
+    border-bottom: 1px solid #e0e0e0; /* Softer border for a more elegant look */
+    background-color: #F9F9F9; /* Lighter grey background */
+    margin-bottom: 12px; /* More spacing between items */
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between; /* Align content nicely */
+    align-items: center;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.reimbursement-list li:hover {
+    background-color: #e1f7d5; /* Soft green hover effect */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+}
+
+.reimbursement-list li:last-child {
+    border-bottom: none; /* Remove bottom border for the last item */
+}
+
+.reimbursement-list li span {
+    font-size: 1rem; /* Ensure text size is readable */
+    color: #333;
+    font-weight: 500;
+}
+
+.reimbursement-list li button {
+    padding: 8px 18px;
+    background-color: #32a852; /* Green button to match the theme */
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.reimbursement-list li button:hover {
+    background-color: #278440;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Soft hover effect */
+}
